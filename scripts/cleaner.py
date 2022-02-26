@@ -4,7 +4,7 @@ import pandas as pd
 # pd.set_option('display.max_columns', 300)
 
 # Read file from
-tmp_data = pd.read_csv("hf.csv", header=0, na_values=["", "---"])
+tmp_data = pd.read_csv("./data/hf.csv", header=0, na_values=["", "---"])
 
 
 # count na's
